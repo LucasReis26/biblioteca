@@ -28,7 +28,7 @@ int main(){
 	sprintf(cmd,"./%s/exec < %s/pubs/pub.in > %s/program.out",dir,dir,dir);
 	system(cmd);
 
-	sprintf(cmd,"vimdiff %s/program.out %s/pubs/pub.out",dir,dir);
+	sprintf(cmd,"nvim -d %s/program.out %s/pubs/pub.out",dir,dir);
 	system(cmd);
 
 	return 0;

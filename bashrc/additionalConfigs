@@ -12,6 +12,7 @@ alias gvrc="cd $HOME/.config/nvim; git status;"
 alias verj="$HOME/biblioteca/algs/verJ"
 alias verc="$HOME/biblioteca/algs/verC"
 alias lsb="ls $HOME/faculdade/beecrowdExercises"
+alias speedtest="$HOME/bin/speedtest/speedtest"
 
 LANG="en_US.UTF-8"
 export LANG;
